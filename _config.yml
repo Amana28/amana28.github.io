@@ -191,6 +191,27 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+
+  - _bibliography/  # publications page
+  - _pages/publications.md
+  - _layouts/bib.liquid
+  - _includes/bib_search.liquid
+  - _includes/citation.liquid
+  - _includes/selected_papers.liquid
+  - _plugins/google-scholar-citations.rb
+  - _plugins/hide-custom-bibtex.rb
+  - _plugins/inspirehep-citations.rb
+
+  - _pages/repositories.md # repositories page
+  - _includes/repository/
+
+  - _pages/teaching.md # teaching page
+  
+  - _pages/profiles.md # people page
+  - _layouts/profiles.liquid
+
+
+
 keep_files:
   - CNAME
   - .nojekyll
@@ -207,7 +228,7 @@ plugins:
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
-  - jekyll/scholar
+  # - jekyll/scholar
   - jekyll-sitemap
   - jekyll-tabs
   - jekyll-terser
