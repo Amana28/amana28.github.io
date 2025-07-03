@@ -145,10 +145,10 @@ newsletter:
 collections:
   books:
     output: true
-  news:
-    defaults:
-      layout: post
-    output: true
+  # news:
+  #   defaults:
+  #     layout: post
+  #   output: true
   projects:
     output: true
 
@@ -210,7 +210,8 @@ exclude:
   - _pages/profiles.md # people page
   - _layouts/profiles.liquid
 
-
+  - _news/ # news section
+  - _includes/news.liquid
 
 keep_files:
   - CNAME
